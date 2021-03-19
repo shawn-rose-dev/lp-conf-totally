@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Totally</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout-nav.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/osv-glyphs.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<style>
+.example-box { width: 100%; min-height: 75px; background: #CCCCCC; }
+</style>
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    
+	<!-- Nav --->
+	<script src="js/jquery-1.10.1.min.js"></script>
+	<!-- script src="js/script.js"></script -->
+	<script>
+		$(function() {
+				var pull 		= $('#pull');
+						menu 		= $('nav ul.menu');
+
+				$(pull).on('click', function(e) {
+						e.preventDefault();
+						menu.slideToggle();
+				});
+				
+				$(window).resize(function(){
+						var w = $(this).width();
+
+						if(w > 767 && menu.is(':hidden')) {
+								menu.removeAttr('style');
+						}
+				});
+
+				$('li').on('click', function(e) {				
+						var w = $(window).width();
+						if(w < 767 ) {
+								menu.slideToggle();
+						}
+				});
+		});
+	</script>
+	
+	<script src="//use.typekit.net/clw8pwa.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<!-- Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-39682390-6', 'auto');
+	ga('send', 'pageview');
+	</script>
+<script>
+$(document).ready(function(){
+    $("#menu").click(function(){
+        $("#wrap").toggle(500);
+    });
+
+});
+</script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav id="nav">
+<div class="container">
+
+	<div class="four columns">
+    <div class="logo"><a href="#"><img class="scale-with-grid" src="images/image-osv-logo.png" alt="OneSource Virtual"/></a></div>
+
+	</div>
+
+  <div class="twelve columns">
+		<div id="menu">
+			<ul class="menu">
+				<li><a href="#foreigner">Foreigner</a></li>
+				<li><a href="#ent-video-bg">Entertainment</a></li>
+				<li><a href="#lights">The Venue </a></li>
+				<li><a href="#rsvp">RSVP</a></li>
+			</ul>
+			<a href="#" id="pull"><span>Menu</span></a>
+		</div><!-- .nav -->
+	</div><!-- .column -->
+	
+</div><!-- .container -->
+</nav>
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- HEADER VIDEO -->
+<section class="panel top-lights" id="top-video-bg">
+	
+	<div id="header-video" class="bg-video" ></div>
+		<div class="container">
+			<div  style="height:150px"></div>
+		</div>
+</section>
+
+<section id="totally">
+
+		<div class="container">
+			<div class="row">
+				<div class="fourteen columns offset-by-one">
+					<img class="scale-with-grid" src="images/totally.png"  alt="Totally"/>
+				</div>
+			</div><!-- .row -->
+			
+			<div class="row">
+				<div class="sixteen columns offset-by-one">
+					<div>
+						<h1><span>September 29, 2015  </span> <span style="color: #CCDB2C; font-weight: 200;">|</span><span class="span2">  Las Vegas, NV</span></h1>
+					</div>
+				</div>
+			</div><!-- .row -->
+		
+			<div class="row">
+				<div class="twelve columns offset-by-one">
+					<div>
+						<p>LIGHT AT MANDALAY BAY<br>9 p.m. – 1 a.m.</p>
+					</div>
+				</div>
+			</div><!-- .row -->
+		</div><!-- container -->
+</section>
+
+<section id="foreigner">
+
+	<div class="container">
+		<div class="eight columns offset-by-eight">
+		
+			<div style="position: relative;">
+				<img class="scale-with-grid" src="images/foreigner-text.png" width="100%" alt="Foreigner"/>
+			</div>
+		</div>		
+		
+	</div><!-- container -->
+</section>
+
+<section id="foriegn-text">	
+
+		<div class="container">
+
+			<div class="fourteen columns offset-by-one text-center">
+				<div>
+					<p class="foreigner-p">Raise a glass and a lighter to <strong>Foreigner’s</strong> signature blend of
+					arena rock anthems and power ballads during a neon-bathed
+					night celebrating innovation, ambition and optimism.
+					</p>
+				</div>
+				<div>
+					<hr>
+				</div>
+			</div><!-- .columns -->
+			
+			<div class="fourteen columns offset-by-one text-center">
+				<div class="greatest-hits">
+					<p>Foreigners Greatest Hits</p>
+				</div>
+			</div><!-- .columns -->
+
+			<div class="twelve columns offset-by-two text-center">
+				<ul class="foreigner-list">
+					<li>Cold As Ice <span>  |  </span></li>
+					<li>Urgent <span>  |  </span></li>
+					<li>Double Vision <span>  |  </span></li>
+					<li>Feels Like The First Time <span>  |  </span></li>
+					<li>Hot Blooded</li>
+					<li>Head Games <span>  |  </span></li>
+					<li>I Want to Know What Love Is <span>  |  </span></li>
+					<li>Juke Box Hero</li>
+				</ul>
+			</div><!-- .columns -->
+		</div><!-- container -->
+</section>
+
+<section class="panel enter-slant" id="ent-video-bg">
+
+	<div id="entertainment-video" class="bg-video" ></div>
+	<div id="mobile-bg"></div>
+
+	<div class="container">
+		<div class="twelve columns offset-by-two text-center">
+			<div class="entertainment-video-text">
+				<h2>ENTERTAINMENT</h2>
+				<p>Trip the LIGHT fantastic in the luxurious luminescence of a radiant, one-of-a-kind nightlife experience. Located inside Mandalay Bay, float effortlessly from event to evening. Immerse yourself in incandescent visual effects as extravagantly outfitted performers engage in mind-bending choreography against state-of-the-art sound and lights. Dance across a 38,000 square feet party playground, drink your fave cocktail at the open bar and see the LIGHT at this incredible venue. </p>
+			</div>
+		</div>
+	</div><!-- container -->
+</section>
+
+<section id="open-bar" style="position: relative;">
+
+	<div class="openbar-image-column"></div>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="five columns offset-by-one ">
+				<div >
+					<h2>OPEN BAR</h2>
+					<p>This evening is on us. Enjoy the liquid
+						equivalent of a chill pill with some bodacious
+						libations, then bounce to your comfy bed
+						just steps away at the primo Mandalay Bay.
+					</p>
+				</div>
+			</div><!-- .columns -->
+		</div><!-- .row -->
+		
+	</div><!-- container -->
+</section>
+
+<section id="attire" style="" >
+	<div class="row">
+		<div class="eight columns">
+			<div class="attire-image-column"></div>
+		</div>
+
+		<div class="container">
+			<div class="eight columns offset-by-eight ">
+				<div >
+						<h2>ATTIRE</h2>
+						<p>Dress is suggested sassy cocktail chic.
+						Think power suits, not tracksuits. Maybe not
+						black tie, but hot pink and electric green tie.</p>
+						<p>Flashdance sweatshirts? Parachute pants?
+						Keyboard neckties?<strong> Not even.</strong></p>
+						<p>We’ll provide a few choice accessories at
+						the door to put everyone in the mood.
+						</p>
+				</div>
+			</div><!-- .columns -->
+		</div><!-- .row -->
+	</div><!-- container -->
+</section>
+	
+<section id="lights">
+
+	<div class="container">
+		<div class="row">
+
+				<div class="eight columns offset-by-one" >
+					<div>
+						<h2>The Venue</h2>
+						<p><span style="font-weight: 600;">LIGHT at Mandalay Bay</span><br>
+						   3950 S Las Vegas Blvd<br>
+						   Las Vegas, NV 89119
+						</p>
+						<p><span style="color: #CEFB30; font-size: 12px; font-weight: 600;">P </span>702.632.9100<br>
+						<a href="mandalaybay.com/thelightvegas/"><span style="color: #CEFB30; font-size: 12px; font-weight: 600;">W </span>mandalaybay.com/thelightvegas/</a>
+						</p>
+					</div>
+				</div><!-- .columns -->
+		</div><!-- .row -->
+	</div><!-- container -->
+</section>
+
+<section id="rsvp">
+
+	<div class="container">		
+		<div class="row">
+			<div class="eight columns offset-by-four">	
+				<a href="https://www.eventbrite.com/e/totally-registration-18044602893" target="_blank"><img class="scale-with-grid play" src="images/press-play.gif" width="100%"  alt="Push Play to Register"/></a>	
+			</div><!-- .columns -->	
+		</div><!-- .row -->
+	</div><!-- container --></section>
+
+<footer>
+	<div class="container">
+
+		<div class="one-third column">
+			<ul class="social clearfix">
+				<li><a class="icon icon-osv-social-twitter mb" href="#"><span>Twitter</span></a></li>
+				<li><a class="icon icon-osv-social-linkedin mb" href="#"><span>LinkedIn</span></a></li>
+				<li><a class="icon icon-osv-social-facebook mb" href="#"><span>Facebook</span></a></li>
+				<li><a class="icon icon-osv-social-youtube mb" href="#"><span>Youtube</span></a></li>
+				<li><a class="icon icon-osv-social-instagram mb" href="#"><span>Instagram</span></a></li>
+				<li><a class="icon icon-osv-social-glassdoor mb" href="#"><span>Glassdoor</span></a></li>
+			</ul>
+		</div><!-- .column -->
+		<div class="one-third column">
+			<a href="#" class="button footer-btn full-width">Contact a Representative</a>
+		</div><!-- .column -->
+		<div class="one-third column text-right">
+			<div class="footer-logo"><a href="#"><img class="scale-with-grid" src="images/image-osv-logo.png" alt="OneSource Virtual"/></a></div>
+		</div><!-- .column -->
+
+	</div><!-- container -->
+</footer>
+
+<div class="bottom-gradient"></div>
+
+<!-- End Document
+================================================== -->
+	<!-- video -->
+	<script type="text/javascript" src="js/jquery.videoBG.js"></script>
+	<!-- script type="text/javascript" src="js/jquery.videoBG.script.js"></script -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+			$('#header-video').videoBG({
+				mp4:'videos/1_Header_Video.mp4',
+				poster:'videos/1_Header_Video.jpg',
+				ogv:'videos/1_Header_Video.ogv',
+				webm:'videos/1_Header_Video.webm',
+				scale:true,
+				zIndex:0,
+				opacity:1,
+				autoplay:true,
+			});
+
+			$('#entertainment-video').videoBG({
+				mp4:'videos/3_Entertainment_Video.mp4',
+				// poster:'video/.jpg',   --missing
+				ogv:'videos/3_Entertainment_Video.ogv',
+				webm:'videos/3_Entertainment_Video.webm',
+				scale:true,
+				zIndex:0,
+				opacity:.2,
+				autoplay:true,
+
+			});
+		})
+	</script>
+
+</body>
+</html>

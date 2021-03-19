@@ -1,0 +1,190 @@
+* {
+  padding:0;
+  margin:0
+}
+
+body {
+  background-color:#000
+}
+
+.flyer {
+  width:100%
+}
+
+section#mobile {
+  display:none
+}
+
+section#tablet {
+  display:none
+}
+
+.socialList ul li a img {
+  width:100%;
+  height:100%
+}
+
+#Foreigner {
+  width:100%;
+  height:1000px;
+  position:absolute;
+  top:1120px
+}
+
+#Entertainment {
+  width:100%;
+  height:1000px;
+  position:absolute;
+  top:2120px
+}
+
+#Venue {
+  width:100%;
+  height:1000px;
+  position:absolute;
+  top:3700px
+}
+
+#Rsvp {
+  width:100%;
+  height:1000px;
+  position:absolute;
+  top:4120px
+}
+
+.escape {
+  position:absolute;
+  top:0;
+  left:0;
+  width:500px
+}
+
+.navbar ul li a {
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing:antialiased;
+  margin-top:25px;
+  padding-left:17px;
+  padding-right:16px;
+  float:left;
+  font-family:'ProximaNova-Regular';
+  font-size:18px;
+  color:#fff;
+  text-decoration:none;
+  list-style:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-weight:800
+}
+
+.navbar ul li a:hover {
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing:antialiased;
+  margin-top:25px;
+  padding-left:17px;
+  padding-right:16px;
+  float:left;
+  font-family:'ProximaNova-Regular';
+  font-size:18px;
+  color:#afd52a;
+  text-decoration:none;
+  list-style:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-weight:800
+}
+
+@font-face {
+  font-family:'BebasNeueBook';
+  src:url(../fonts/BebasNeueBook.otf);
+  font-weight:400;
+  font-style:normal
+}
+
+@font-face {
+  font-family:'BebasNeueLight';
+  src:url(../fonts/BebasNeueLight.otf);
+  font-weight:400;
+  font-style:normal
+}
+
+@font-face {
+  font-family:'BebasNeueRegular';
+  src:url(../fonts/BebasNeueRegular.otf);
+  font-weight:400;
+  font-style:normal
+}
+
+@font-face {
+  font-family:'ProximaNova-Light';
+  src:url(../fonts/ProximaNova-Light.ttf);
+  font-weight:400;
+  font-style:normal
+}
+
+@font-face {
+  font-family:'ProximaNova-Regular';
+  src:url(../fonts/ProximaNova-Regular.ttf);
+  font-weight:400;
+  font-style:normal
+}
+
+@font-face {
+  font-family:'ProximaNova-Semibold';
+  src:url(../fonts/ProximaNova-Semibold.ttf);
+  font-weight:400;
+  font-style:normal
+}
+
+body {
+  font-family:'ProximaNova-Regular','BebasNeueBook'
+}
+
+@media (max-width: 960px) {
+nav ul {
+  display:none
+}
+
+nav select {
+  display:inline-block
+}
+}
+
+div#Foreigner {
+  width:100%;
+  height:1000px;
+  position:absolute;
+  top:1120px
+}
+
+div#Entertainment {
+  width:100%;
+  height:1000px;
+  position:absolute;
+  top:2120px
+}
+
+div#Venue {
+  width:100%;
+  height:1000px;
+  position:absolute;
+  top:3700px
+}
+
+div#Rsvp {
+  width:100%;
+  height:1000px;
+  position:absolute;
+  top:4120px
+}
+
+@media screen and (max-device-width : 1024px) {
+section {
+  width:100%
+}
+}
+
+@media screen and (max-device-width : 986px) {
+section {
+  width:100%
+}
+}
